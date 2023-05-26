@@ -1,0 +1,9 @@
+export const baseUrl = 'http://192.168.0.2:4433';
+export const logout = `${baseUrl}/self-service/logout`;
+export const login = `${baseUrl}/self-service/login`;
+export const registrationFlowId = `${baseUrl}/self-service/registration/browser`;
+export const completeRegistration = `${baseUrl}/self-service/registration?flow=`;
+export const completeRecovery = `${baseUrl}/self-service/recovery?flow=`;
+export const completeSetting = `${baseUrl}/self-service/settings?flow=`;
+export const settingFlow = `${baseUrl}/self-service/settings/browser`;
+export const completeVerification = `${baseUrl}/self-service/verification?flow=`;
